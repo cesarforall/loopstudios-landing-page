@@ -82,6 +82,42 @@ img {
 	font-size: 40px;
 	text-transform: uppercase;
 }
+/* First */
+.first {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 100px;
+
+}
+.first img {
+	width: 335px;
+	height: auto;
+}
+.text-container {
+	margin: 0 20px;
+	padding: 15px;
+	text-align: center;
+}
+.text-container h3 {
+	margin-top: 30px;
+	margin-bottom: 0;
+	font-family: var(--ff-josefin);
+	text-transform: uppercase;
+	font-size: 32px;
+	font-weight: 300;
+}
+.text-container p {
+	display: inline-block;
+	margin: 0;
+	margin-top: 15px;
+	padding: 0 16px;
+	color: var(--dark-gray);
+	font-size: 14px;
+	line-height: 25px;
+}
 /* Attribution */
 .attribution {
 	font-size: 11px;
