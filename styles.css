@@ -171,12 +171,87 @@ img {
 	letter-spacing: 3px;
 	background-color: var(--white);
 	border: 1px solid var(--black);
-	padding: 8px 0; 
+	padding: 8px 0;
+}
+
+/* Footer */
+.footer {
+	width: 100%;
+	padding-top: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	background-color: var(--black);
+	color: var(--white);
+}
+.footer-top {
+	width: 100%;
+	text-align: center;
+}
+.footer-menu {
+	margin-top: 20px;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+}
+
+.footer-logo {
+	width: 36%;
+}
+.footer-menu li {
+	font-size: 14px;
+	line-height: 36px;
+}
+.footer-bottom {
+	margin-top: 30px;
+}
+.footer-bottom p {
+	color: var(--dark-gray);
+}
+.social-media {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 14px;
+	margin-bottom: 30px;
+}
+.icon {
+	display: flex;
+	width: 26px;
+	height: 26px;
+}
+.f-icon {
+	background-image: url('./images/icon-facebook.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.t-icon {
+	background-image: url('./images/icon-twitter.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.p-icon {
+	background-image: url('./images/icon-pinterest.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.i-icon {
+	background-image: url('./images/icon-instagram.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 /* Attribution */
 .attribution {
+	height: 60px;
 	font-size: 11px;
 	text-align: center;
+	color: var(--dark-gray);
 }
 
 .attribution a {
