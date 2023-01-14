@@ -26,23 +26,25 @@ html * {
 }
 
 body {
-	width: 375px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-	margin: 0 auto;
+	margin: 0;
 }
 /* Delete img after finishing */
 img {
-    width: 100%;
+	width: 100%;
+}
+.landing-page {
+	width: 375px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
 }
 .inactive {
 	display: none;
 }
-/* Navbar */
-.navbar {
-	width: 100%;
+.header {
+	width: 375px;
 	height: 650px;
 	color: var(--white);
 	background-image: url('./images/mobile/image-hero.jpg');
@@ -50,34 +52,35 @@ img {
 	background-position: left;
 	background-size: contain;
 }
-
-.navbar-container {
+/* Navbar */
+.navbar {
 	width: 100%;
 	display: flex;
-    justify-content: space-between;
+	align-items: center;
+	justify-content: space-between;
 	padding: 40px 24px 0;
 }
 .navbar-logo {
-    width: 142px;
-    height: auto;
+	width: 142px;
+	height: auto;
 }
 
 .mobile-menu-icon {
 	width: 24px;
-    height: 15px;
+	height: 15px;
 }
 .navbar-menu {
 	display: none;
 }
 
 .navbar-slogan {
-    border: 2px solid var(--white);
-    align-self: center;
-    margin: 162px 24px 0;
-    padding: 20px;
-    font-family: var(--ff-josefin);
-    font-size: 40px;
-    text-transform: uppercase;
+	border: 2px solid var(--white);
+	align-self: center;
+	margin: 162px 24px 0;
+	padding: 20px;
+	font-family: var(--ff-josefin);
+	font-size: 40px;
+	text-transform: uppercase;
 }
 /* Attribution */
 .attribution {
